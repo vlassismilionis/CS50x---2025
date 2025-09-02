@@ -11,3 +11,4 @@ All of my projects during the CS50x course.
 - substitution : a program that enables you to encrypt messages using a substitution cipher. The user provides a key that is used to to encrypt their message by replacing every letter with another letter.
 - plurality : A C program that simulates a plurality election. Candidates are provided via command-line arguments, voters cast their votes, and the program tallies them. The winner(s) with the most votes are printed, with support for ties.
 - runoff : A C program that implements the instant-runoff voting algorithm. It records voter preferences, tabulates votes in rounds, and eliminates candidates until a winner is found.
+- tideman : This program implements the Tideman ranked-choice voting algorithm. It collects voter rankings, calculates pairwise preferences, sorts candidate pairs by victory strength, and builds a directed graph to determine the winner without cycles.
